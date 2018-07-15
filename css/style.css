@@ -1,0 +1,356 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	box-sizing:content-box;
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	font-family:"Verdana Pro Light";
+	font-size: 15px; 
+	line-height: 25px;
+	color:white;
+}
+
+#luar
+{
+	width:1840px;
+	height:964px;
+}
+
+#welcome
+{
+	width:102.2%;
+	height:30px;
+	background-color:#004ABC;
+	padding:20px;
+}
+
+#header
+{
+	width:103.25%;
+	height:110px;
+	background-image:url(../logo/header.png);
+	background-position:left;
+	background-size:100%;
+	padding-top:70px;
+	padding-left:20px;
+	font-family:"Bebas Neue";
+	font-size:50px;
+}
+
+#menu
+{
+	width:104.37%;
+	height:50px;
+	background-color:#2F2F2F;
+}
+
+nav {
+	text-align: center;
+	width:100%;
+	font-family:Calibri;
+	color:white;
+	font-size:16px;
+	
+}
+nav ul {  
+	list-style: none;
+	position: relative;
+}
+
+	nav ul li {
+		float:right;
+		width:150px;
+		height:30px;
+		padding:10px;
+	}
+		nav ul li:hover {
+			background: #1F2D9A;
+			background-size:cover;
+		}
+
+#konten
+{
+	width:100%;
+	color:black;
+	padding:30px;
+	font-size:25px;
+}
+
+#footer
+{
+	width:103.2%;
+	height:63.5px;
+	background-color:#1A1818;
+	clear:both;
+}
+
+a
+{
+	color:white;
+}
+
+#daftar-table
+{
+  	padding:10px;
+  	width:100%;
+  	border-radius: 5px;
+	background:white;
+	color:black;
+	font-family:Calibri;
+	font-size:20px;
+	border-bottom:1px solid #e3e3e3;
+}
+ 
+	  .normal
+	  {
+	  	width: 10%;
+		background:white;
+		padding:10px;
+		text-align:left;
+	  }
+      table{
+      	border-collapse: collapse;
+      }
+ 
+      #daftar-table tbody td{
+      	border-top: 1px solid #e3e3e3;
+      	padding: 10px;
+      }
+	  #daftar-table .isi:hover
+	  {
+		  background-color:#D7D7D7;
+	  }
+
+.delete{
+  background:#FF1E22;
+  width:50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-color:transparent;
+  padding:8px;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:11pt;
+  color:white;
+}
+
+.delete:hover
+{
+	background:#680002;
+}
+
+.update{
+  background:#00B7B9;
+  width:50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-color:transparent;
+  padding:8px 8px;;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:11pt;
+  color:white;
+}
+
+.update:hover
+{
+	background:#007D8C;
+}
+
+.button{
+  background:#006FCB;
+  width:100px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-color:transparent;
+  padding:8px 8px;;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size:11pt;
+  color:white;
+}
+
+.button:hover
+{
+	background:#00467F;
+}
+
+#tabel-pendaftaran
+{
+  	padding:50px;
+	margin:20px;
+  	width:100%;
+	font-family:Calibri;
+	font-size:20px;
+}
+
+input[type=text],input[type=password],input[type=date],textarea, select {
+    width: 50%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:15px;
+}
+
+@media screen and (max-width: 1900px)
+{
+	#luar
+	{
+		width:100%;
+	}
+	
+	#welcome
+	{
+		width:auto;
+		height:auto;
+		float:none;
+	}
+	
+	nav
+	{
+		width:auto;
+	}
+	
+	nav ul {  
+		width:auto;
+	}
+	
+	nav ul li {  
+		float:right;
+		width:auto;
+		padding:10px;
+	}
+	
+	#header
+	{
+		width:auto;
+		float:none;
+		background-size:cover;
+	}
+	
+	#daftar-table
+	{
+		width:100%;
+	}
+	
+	.normal
+	{
+		width:auto;
+	}
+	
+	#menu
+	{
+		width:auto;
+	}
+	
+	
+	#konten
+	{
+		width:auto;
+		float:none;
+	}
+	
+	
+	input[type=text],input[type=password],input[type=date],textarea, select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:15px;
+}
+}
+
+@media screen and (max-width:768px)
+{
+	#luar
+	{
+		width:100%;
+	}
+	
+	#welcome
+	{
+		width:auto;
+		height:auto;
+		float:none;
+	}
+	
+	nav
+	{
+		width:auto;
+	}
+	
+	nav ul {  
+		width:auto;
+	}
+	
+	nav ul li {  
+		float:right;
+		width:auto;
+		padding:10px;
+	}
+	
+	#header
+	{
+		width:auto;
+		height:auto;
+		float:none;
+	}
+	
+	#daftar-table
+	{
+		width:100%;
+	}
+	
+	.normal
+	{
+		width:auto;
+	}
+	
+	#menu
+	{
+		width:auto;
+	}
+	
+	
+	#konten
+	{
+		width:auto;
+		float:none;
+	}
+	
+	
+	#footer
+	{
+		width:auto;
+		float:none;
+		clear:both;
+	}
+	
+	input[type=text],input[type=password],input[type=date],textarea, select {
+    width: 90%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:15px;
+}
+}

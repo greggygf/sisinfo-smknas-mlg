@@ -1,0 +1,51 @@
+input[type=text],input[type=password] {
+	background:rgba(0,0,0,0.0);
+	width:83%;
+	background-color:#EAEAEC;
+    padding: 10px 10px;
+    margin: 2px 0;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:12px;
+}
+
+body {
+	 background-image:url(../wallpaper/wallpaper5.jpg);
+     margin: auto;
+     position: absolute;
+     top: 200px; left: 0; bottom: 0; right: 0;
+	 font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	 
+}
+
+.tombol{
+  color:white;
+  background-color:#15A4D0;
+  width:89%;
+  height:40px;
+  padding:10px 10px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+  border:0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.tombol:hover
+{
+	background-color:#029B99;
+}
+
+fieldset
+{
+	width:320px; 
+	background-color:white;
+	border:1px;
+	border-top-left-radius: 10px;
+  	border-top-right-radius: 10px;
+ 	border-bottom-left-radius: 10px;
+  	border-bottom-right-radius: 10px;
+}
