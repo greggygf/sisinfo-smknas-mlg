@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a>
+  <a href="https://smk-nasional-malang.business.site/">
     <img src="logo/smknasional.png" alt="Logo" width="150" height="150">
   </a>
 
@@ -11,3 +11,25 @@
     PHP web-based school information system application
   </p>
 </p>
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+### Login Page
+
+![Login Page](https://example.com)
