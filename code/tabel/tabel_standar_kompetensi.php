@@ -12,7 +12,7 @@
 		?> 
 		<a href="halaman_utama.php?formulir_standar_kompetensi=$formulir_standar_kompetensi"><input class="button" type="button" value="Tambah"></a>
 		<?php } ?>
-		<a href="pdf_standar_kompetensi.php" target="_blank"><input class="button" type="button" value="Print"></a>
+		<a href="code/pdf/pdf_standar_kompetensi.php" target="_blank"><input class="button" type="button" value="Print"></a>
 		
    	</td>
    	<td align="right">Search : <input type="search" name="cari" placeholder="" style=

@@ -6,7 +6,7 @@
    <table width="100%">
    <tr>
    	<td>
-		<a href="pdf_standar_kompetensi_untuk_guru.php" target="_blank"><input class="button" type="button" value="Print"></a>
+		<a href="code/pdf/pdf_standar_kompetensi_untuk_guru.php" target="_blank"><input class="button" type="button" value="Print"></a>
 		
    	</td>
    	<td align="right">Search : <input type="search" name="cari" placeholder="" style=

@@ -3,9 +3,6 @@
 require_once("../../koneksi.php");
 
 $html = '
-<img src="../../logo/kop.png" width="500">
-
-<hr>
 
 <font face="Calibri">DAFTAR GURU</font>
 

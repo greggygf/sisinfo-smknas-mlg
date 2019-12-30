@@ -1,6 +1,6 @@
 <?php
 
-require_once("koneksi.php");
+require_once("../../koneksi.php");
 session_start();
 $informasi = $_SESSION['nis'];
 
@@ -9,10 +9,6 @@ where s.nis=n.nis AND g.kode_guru=n.kode_guru AND sk.kode_sk=n.kode_sk AND mp.ko
 
 while ($data2 = mysqli_fetch_array($sql2)){
 $html = '
-<img src="logo/kop.png" width="500">
-
-<hr>
-
 Nama &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : <b>'.$_SESSION['nama_siswa'].'</b> <br>
 Kelas / Jurusan : <b>'.$data2['kelas'].'</b> / <b><i>'.$data2['nama_jurusan'].'</i></b> <br>
 
@@ -62,7 +58,7 @@ $footer = '<div><div style="text-align:left; width:50; float:left;">'.$a.'</div>
           ';
 $no++;
 
-include("mpdf/mpdf.php");
+include("../../mpdf/mpdf.php");
 ob_clean();
 $mpdf = new mPDF('utf-8','A4','','Calibri'); 
 $mpdf->SetDisplayMode('fullpage');

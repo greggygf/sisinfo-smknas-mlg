@@ -11,7 +11,7 @@
 		?>
 		<a href="halaman_utama.php?formulir_jurusan=$formulir_jurusan"><input class="button" type="button" value="Tambah"></a>
 		<?php } ?>
-  		<a href="pdf_jurusan.php" target="_blank"><input class="button" type="button" value="Print"></a>
+  		<a href="code/pdf/pdf_jurusan.php" target="_blank"><input class="button" type="button" value="Print"></a>
    	</td>
    	<td align="right">Search : <input type="search" name="cari" placeholder="" style=
    	"

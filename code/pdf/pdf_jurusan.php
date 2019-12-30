@@ -1,11 +1,8 @@
 <?php
 
-require_once("koneksi.php");
+require_once("../../koneksi.php");
 
 $html = '
-<img src="logo/kop.png" width="500">
-
-<hr>
 
 <font face="Calibri">DAFTAR JURUSAN</font>
 
@@ -38,7 +35,7 @@ $footer = '<div><div style="text-align:left; width:50; float:left;">'.$a.'</div>
 		   <div style="float:right; text-align:right;">Printed by: Sisinfo SMK Nasional Malang</div>
           ';
 
-include("mpdf/mpdf.php");
+include("../../mpdf/mpdf.php");
 ob_clean();
 $mpdf = new mPDF('utf-8','A4','','Calibri'); 
 $mpdf->SetDisplayMode('fullpage');
