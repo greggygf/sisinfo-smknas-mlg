@@ -33,3 +33,7 @@
 ### Login Page
 
 ![Login Page](https://github.com/bluohazard/sisinfo-smknas-mlg/blob/master/img/login.png)
+
+### Main Page
+
+![Main Page](https://github.com/bluohazard/sisinfo-smknas-mlg/blob/master/img/mainpage.png)
