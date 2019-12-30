@@ -45,10 +45,7 @@ git clone https://github.com/bluohazard/sisinfo-smknas-mlg.git
 ```
 2. Import Database `database/sekolah.sql` to your PhpMyAdmin
 
-3. Edit file `koneksi.php` adjust to your database connection
-
-Example :
-
+3. Edit file `koneksi.php` adjust to your database connection. Example : 
 ```
 $host = "localhost";    // MySQL host Url
 $user = "root";         // MySQL user
