@@ -22,10 +22,8 @@
   * [Installation](#installation)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -42,3 +40,15 @@
 * [PHP](https://www.php.net/)
 * [JQuery](https://jquery.com)
 * [MySQL](https://www.mysql.com/)
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+Greggy Gianini Firmansyah - [@GreggyGF](https://twitter.com/GreggyGF) - greggygf@gmail.com
+
+Project Link: [Sistem Informasi SMK Nasional Malang](https://github.com/bluohazard/sisinfo-smknas-mlg)
