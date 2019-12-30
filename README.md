@@ -5,7 +5,7 @@
     <img src="logo/smknasional.png" alt="Logo" width="150" height="150">
   </a>
 
-  <h3 align="center">Sistem Informasi SMK Nasional Malang</h3>
+  <h3 align="center">Sistem Informasi Akademik SMK Nasional Malang</h3>
 
 > "Sistem Informasi Akademik SMK Nasional Malang" Website Application is a Website that is used to store a lot of information. Information that can be stored is Subjects, Majors, Competency Standards, Teachers, Students, Student Guardians, and Values. This application is expected to facilitate the work of Teachers / Admins in conducting data collection.
 
