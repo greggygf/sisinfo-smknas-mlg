@@ -17,11 +17,7 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
+* [Installation](#installation)
 * [License](#license)
 * [Contact](#contact)
 
@@ -41,6 +37,25 @@
 * [JQuery](https://jquery.com)
 * [MySQL](https://www.mysql.com/)
 
+## Installation
+
+1. Clone the repo
+```sh
+git clone https://github.com/bluohazard/sisinfo-smknas-mlg.git
+```
+2. Import Database `database/sekolah.sql` to your PhpMyAdmin
+
+3. Edit file `koneksi.php` adjust to your database connection
+
+Example :
+
+```
+$host = "localhost";    // MySQL host Url
+$user = "root";         // MySQL user
+$password = "";         // MySQL password
+$database = "sekolah";  // database name
+```
+
 <!-- LICENSE -->
 ## License
 
@@ -49,6 +64,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Greggy Gianini Firmansyah - [@GreggyGF](https://twitter.com/GreggyGF) - greggygf@gmail.com
-
-Project Link: [Sistem Informasi SMK Nasional Malang](https://github.com/bluohazard/sisinfo-smknas-mlg)
+Greggy Gianini Firmansyah - [@greggygf](https://instagram.com/GreggyGF) - greggygf@gmail.com
