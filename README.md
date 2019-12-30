@@ -37,3 +37,8 @@
 ### Main Page
 
 ![Main Page](https://github.com/bluohazard/sisinfo-smknas-mlg/blob/master/img/mainpage.png)
+
+### Built With
+* [PHP](https://www.php.net/)
+* [JQuery](https://jquery.com)
+* [MySQL](https://www.mysql.com/)
