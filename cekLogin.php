@@ -34,4 +34,3 @@
 		window.location='index.php';
 		</script>";
 	}
-?>

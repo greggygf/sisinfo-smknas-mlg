@@ -23,21 +23,21 @@ $html = '
  </thead>
  <!-- Ini Body Tabelnya -->
  <tbody>';
- // Tampilkan Data Dari Tabel Siswa
- $no=1;
- $sql = mysqli_query($connect,"select * from `guru` g,`mata_pelajaran` mp where g.kode_mp=mp.kode_mp");
- while ($data = mysqli_fetch_array($sql)){  
-  $html .= '<tr>';
-  $html .= '<td width="35">'.$data['kode_guru'].'</td>';
-  $html .= '<td>'.$data['nama_guru'].'</td>';
-  $html .= '<td>'.$data['nama_mp'].'</td>';
-  $html .= '<td>'.$data['tempat_lahir'].','.$data['tanggal_lahir'].'</td>';
-  $html .= '<td width="50">'.$data['jenis_kelamin'].'</td>';
-  $html .= '<td>'.$data['agama'].'</td>';
-  $html .= '<td>'.$data['alamat_guru'].'</td>';
-  $html .= '</tr>';
- $no++;
- }
+// Tampilkan Data Dari Tabel Siswa
+$no = 1;
+$sql = mysqli_query($connect, "select * from `guru` g,`mata_pelajaran` mp where g.kode_mp=mp.kode_mp");
+while ($data = mysqli_fetch_array($sql)) {
+    $html .= '<tr>';
+    $html .= '<td width="35">' . $data['kode_guru'] . '</td>';
+    $html .= '<td>' . $data['nama_guru'] . '</td>';
+    $html .= '<td>' . $data['nama_mp'] . '</td>';
+    $html .= '<td>' . $data['tempat_lahir'] . ',' . $data['tanggal_lahir'] . '</td>';
+    $html .= '<td width="50">' . $data['jenis_kelamin'] . '</td>';
+    $html .= '<td>' . $data['agama'] . '</td>';
+    $html .= '<td>' . $data['alamat_guru'] . '</td>';
+    $html .= '</tr>';
+    $no++;
+}
 $html .= '</tbody></table>';
 
 $footer = '<div><div style="text-align:left; width:85; float:left;">{DATE j-M-Y}</div>
@@ -48,14 +48,12 @@ $footer = '<div><div style="text-align:left; width:85; float:left;">{DATE j-M-Y}
 include("../../mpdf/mpdf.php");
 ob_clean();
 
-$mpdf = new mPDF('utf-8','A4','','Calibri'); 
+$mpdf = new mPDF('utf-8', 'A4', '', 'Calibri');
 $mpdf->SetDisplayMode('fullpage');
 $mpdf->setHtmlFooter($footer);
 $mpdf->SetWatermarkImage('smknasional.png', 0.02, 'F');
 $mpdf->showWatermarkImage = true;
 $mpdf->WriteHTML($html);
-$mpdf->Output('guru_smk.pdf','I');
+$mpdf->Output('guru_smk.pdf', 'I');
 
 exit;
-
-?>
